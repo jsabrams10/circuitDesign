@@ -1,0 +1,7 @@
+INPUT 3 A B C
+OUTPUT 1 OUT
+NAND B B nandBB
+NAND C C nandCC
+NAND A C nandAC
+NAND nandBB nandCC nandBBCC
+NAND nandBBCC nandAC OUT

@@ -1,0 +1,7 @@
+INPUT 3 INA INB INC
+OUTPUT 1 OUT
+AND INA INC andAC
+NOT INB notB
+NOT INC notC
+AND notB notC andNotBNotC
+OR andAC andNotBNotC OUT
